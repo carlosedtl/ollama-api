@@ -8,7 +8,7 @@ import json
 import sys
 
 # API Configuration
-API_BASE_URL = "http://localhost:3000"  # Your API server URL
+API_BASE_URL = "http://98.92.8.6:3000"  # Your API server URL
 MODEL_NAME = "llama2"  # Default model name
 
 def test_chat_completion(question: str, model: str = MODEL_NAME, stream: bool = False):
